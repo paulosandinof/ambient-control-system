@@ -1,4 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" uid="_kpe-cIWdEeuE44Loe5V64Q" version="14.3.1.202003261200">
-  <semanticResources>AmbientControlSystem.sysadl</semanticResources>
-</viewpoint:DAnalysis>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:sysadl="http://org.sysadl" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_kpe-cIWdEeuE44Loe5V64Q" selectedViews="_UvLQgIXiEeuJxZC9IwyRxg" version="14.3.1.202003261200">
+    <semanticResources>AmbientControlSystem.sysadl</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_UvLQgIXiEeuJxZC9IwyRxg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Uvc9UIXiEeuJxZC9IwyRxg" name="Requirements Diagram" repPath="#_UvQJAIXiEeuJxZC9IwyRxg" changeId="d9efb91f-9ab6-4962-b7a5-18056dd882b1">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']"/>
+        <target xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_WGSNYYXiEeuJxZC9IwyRxg" name="SmartHome Requirements Diagram" repPath="#_WGQYMIXiEeuJxZC9IwyRxg" changeId="6bdd0577-f380-4ab4-9a43-b5b80070008d">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']"/>
+        <target xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_UvQJAIXiEeuJxZC9IwyRxg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Uvq_wIXiEeuJxZC9IwyRxg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Uvq_wYXiEeuJxZC9IwyRxg" type="Sirius" element="_UvQJAIXiEeuJxZC9IwyRxg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_UxXB0IXiEeuJxZC9IwyRxg" type="2002" element="_UvsN4IXiEeuJxZC9IwyRxg">
+          <children xmi:type="notation:Node" xmi:id="_UxbTQIXiEeuJxZC9IwyRxg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Uxb6UIXiEeuJxZC9IwyRxg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Uxb6UYXiEeuJxZC9IwyRxg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Uxb6UoXiEeuJxZC9IwyRxg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_UxXB0YXiEeuJxZC9IwyRxg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UxXB0oXiEeuJxZC9IwyRxg"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Uvq_woXiEeuJxZC9IwyRxg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UxUlkIXiEeuJxZC9IwyRxg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_UxUlkYXiEeuJxZC9IwyRxg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_UvsN4IXiEeuJxZC9IwyRxg" name="req SysADLModel">
+      <target xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+      <semanticElements xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_UxKNgIXiEeuJxZC9IwyRxg" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_UvQwEIXiEeuJxZC9IwyRxg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer"/>
+    <target xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_WGQYMIXiEeuJxZC9IwyRxg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_WGS0cIXiEeuJxZC9IwyRxg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_WGS0cYXiEeuJxZC9IwyRxg" type="Sirius" element="_WGQYMIXiEeuJxZC9IwyRxg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_WHcrAIXiEeuJxZC9IwyRxg" type="2002" element="_WGUCkIXiEeuJxZC9IwyRxg">
+          <children xmi:type="notation:Node" xmi:id="_WHdSEIXiEeuJxZC9IwyRxg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_WHdSEYXiEeuJxZC9IwyRxg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_rXW-UIXiEeuJxZC9IwyRxg" type="3009" element="_rWyWkIXiEeuJxZC9IwyRxg">
+              <children xmi:type="notation:Node" xmi:id="_rXXlYIXiEeuJxZC9IwyRxg" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_rXYMcIXiEeuJxZC9IwyRxg" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_rXZakIXiEeuJxZC9IwyRxg" type="3010" element="_rW8HkIXiEeuJxZC9IwyRxg">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_rXZakYXiEeuJxZC9IwyRxg" fontName="Ubuntu" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_rXZakoXiEeuJxZC9IwyRxg"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_rXaBoIXiEeuJxZC9IwyRxg" type="3010" element="_rXKKAIXiEeuJxZC9IwyRxg">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_rXaBoYXiEeuJxZC9IwyRxg" fontName="Ubuntu" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_rXaBooXiEeuJxZC9IwyRxg"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_rXYMcYXiEeuJxZC9IwyRxg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_rXYMcoXiEeuJxZC9IwyRxg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rXW-UYXiEeuJxZC9IwyRxg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rXW-UoXiEeuJxZC9IwyRxg" x="375" y="54"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_WHdSEoXiEeuJxZC9IwyRxg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_WHdSE4XiEeuJxZC9IwyRxg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WHcrAYXiEeuJxZC9IwyRxg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WHcrAoXiEeuJxZC9IwyRxg" x="-40" width="938" height="483"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_WGS0coXiEeuJxZC9IwyRxg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_WHcD8IXiEeuJxZC9IwyRxg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_WHcD8YXiEeuJxZC9IwyRxg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_WGUCkIXiEeuJxZC9IwyRxg" name="req SysADLModel">
+      <target xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+      <semanticElements xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_WHYZkIXiEeuJxZC9IwyRxg" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_rWyWkIXiEeuJxZC9IwyRxg" name="&lt;&lt;requirement>>&#xA;AutomacaoResidencial">
+        <target xmi:type="sysadl:Requirement" href="AmbientControlSystem.sysadl#1.0"/>
+        <semanticElements xmi:type="sysadl:Requirement" href="AmbientControlSystem.sysadl#1.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rW7ggIXiEeuJxZC9IwyRxg" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subContainerMappings[name='SysADL.Req.Requirement']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subContainerMappings[name='SysADL.Req.Requirement']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_rW8HkIXiEeuJxZC9IwyRxg" name="id=1 ">
+          <target xmi:type="sysadl:Requirement" href="AmbientControlSystem.sysadl#1.0"/>
+          <semanticElements xmi:type="sysadl:Requirement" href="AmbientControlSystem.sysadl#1.0"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_rXJi8IXiEeuJxZC9IwyRxg" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subContainerMappings[name='SysADL.Req.Requirement']/@subNodeMappings[name='SysADL.Red.ID']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subContainerMappings[name='SysADL.Req.Requirement']/@subNodeMappings[name='SysADL.Red.ID']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_rXKKAIXiEeuJxZC9IwyRxg" name="text=">
+          <target xmi:type="sysadl:Requirement" href="AmbientControlSystem.sysadl#1.0"/>
+          <semanticElements xmi:type="sysadl:Requirement" href="AmbientControlSystem.sysadl#1.0"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_rXTT8IXiEeuJxZC9IwyRxg" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subContainerMappings[name='SysADL.Req.Requirement']/@subNodeMappings[name='SysADL.Req.Text']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subContainerMappings[name='SysADL.Req.Requirement']/@subNodeMappings[name='SysADL.Req.Text']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_WGQ_QIXiEeuJxZC9IwyRxg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer"/>
+    <target xmi:type="sysadl:Model" href="AmbientControlSystem.sysadl#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
